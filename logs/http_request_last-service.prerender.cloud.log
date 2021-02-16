@@ -1,0 +1,25 @@
+## [2020-10-29 12:20:58] Request #######################################
+
+GET /pdf/http://papay.uz/uz/order?order_id=29&public_key=kii270qc9850jrubvr9er34pt1kpdgkd HTTP/1.1
+Host: service.prerender.cloud
+X-Prerender-Token: dXMtd2VzdC0yOjVkNWM5NjFkLWFjODktNGVlNS04YzBiLTY5M2E2YWYyOTRlMA.pO4nOlDEOoRIaZGQV1-HUtJ_iovv1QHXAZbFytEP5xg
+Prerender-Emulated-Media: print
+User-Agent: LiteCart/2.2.4
+Content-Length: 0
+Connection: Close
+
+
+
+## [2020-10-29 12:21:01] Response — 407 bytes transferred in 2.836 s ###
+
+HTTP/1.1 502 Bad Gateway
+Date: Thu, 29 Oct 2020 07:21:00 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 172
+Connection: close
+Server: Prerender.cloud
+ETag: W/"ac-wwUJW5yt9qgVEZFI7+OKz2ip33o"
+Vary: Accept-Encoding
+
+Bad Gateway: service.prerender.cloud could not process http://papay.uz/uz/order?order_id=29&public_key=kii270qc9850jrubvr9er34pt1kpdgkd because it (the origin) returned 500
+

@@ -1,0 +1,9 @@
+/*it can impact to Admin catalog css codes*/
+
+div#widget-discussions {
+    visibility: hidden;
+}
+
+#platform, #copyright, #widget-addons {
+	visibility: hidden;
+}

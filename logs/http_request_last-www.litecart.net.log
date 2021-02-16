@@ -1,0 +1,207 @@
+## [2020-10-09 15:07:53] Request #######################################
+
+GET /feeds/discussions.rss HTTP/1.1
+Host: www.litecart.net
+User-Agent: LiteCart/2.2.4
+Content-Length: 0
+Connection: Close
+
+
+
+## [2020-10-09 15:07:54] Response — 9538 bytes transferred in 0.471 s ##
+
+HTTP/1.1 200 OK
+Date: Fri, 09 Oct 2020 10:07:54 GMT
+Content-Type: application/rss+xml; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: __cfduid=d907b0f23398e5df18d7162353b2b268e1602238074; expires=Sun, 08-Nov-20 10:07:54 GMT; path=/; domain=.litecart.net; HttpOnly; SameSite=Lax
+Cache-Control: no-store, no-cache, must-revalidate
+Cf-Railgun: direct (starting new WAN connection)
+Content-Language: en
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Set-Cookie: LCSESSID=530acf103969d8c2dcca574e527d3773; path=/; HttpOnly; SameSite=Lax; secure
+Vary: Accept-Encoding
+X-Powered-By: LiteCart.net
+X-Turbo-Charged-By: LiteSpeed
+CF-Cache-Status: DYNAMIC
+cf-request-id: 05ae6de5240000cad8481e7200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=128&lkg-time=1602238074"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 5df74c1b6a48cad8-ARN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>LiteCart Forum Discussions</title>
+    <link>https://www.litecart.net/forums/index</link>
+    <description>The most recent forum activity.</description>
+    <language>en</language>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Restore cart items from database based on cookie]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13184/restore-cart-items-from-database-based-on-cookie</link>
+      <description></description>
+      <author><![CDATA[insanebear]]></author>
+      <pubDate>Fri, 09 Oct 2020 06:42:07 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[강남안마 O p s s . n e t ∝오피쓰 ↗강남건마 ↗강...]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13194/o-p-s-s-n-e-t</link>
+      <description></description>
+      <author><![CDATA[fantonan]]></author>
+      <pubDate>Fri, 09 Oct 2020 01:42:48 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[선릉오피∵O p s s 3 9 점 n e t ✈오피쓰∵선릉건마...]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13193/o-p-s-s-3-9-n-e-t</link>
+      <description></description>
+      <author><![CDATA[fantonan]]></author>
+      <pubDate>Fri, 09 Oct 2020 01:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[대구Op ⬇O p s s 3 9 。N e t 오피쓰⚘대구안마 ⌛대...]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13192/op-o-p-s-s-3-9-n-e-t</link>
+      <description></description>
+      <author><![CDATA[fantonan]]></author>
+      <pubDate>Fri, 09 Oct 2020 01:39:38 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Problem importing customers using CSV]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13187/problem-importing-customers-using-csv</link>
+      <description></description>
+      <author><![CDATA[colegiovictoria]]></author>
+      <pubDate>Thu, 08 Oct 2020 23:18:29 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Templates and CSS]]></category>
+      <title><![CDATA[How to edit the printable_order_copy from admin?]]></title>
+      <link>https://www.litecart.net/en/forums/12/templates-and-css/13181/how-to-edit-the-printable-order-copy-from-admin</link>
+      <description></description>
+      <author><![CDATA[ubuntuchosen]]></author>
+      <pubDate>Thu, 08 Oct 2020 22:58:38 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Errors and Troubleshooting]]></category>
+      <title><![CDATA[New added products links problem]]></title>
+      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/12932/new-added-products-links-problem</link>
+      <description></description>
+      <author><![CDATA[insanebear]]></author>
+      <pubDate>Thu, 08 Oct 2020 18:08:33 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Country sales report with 2.2.1]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/12391/country-sales-report-with-2-2-1</link>
+      <description></description>
+      <author><![CDATA[ubuntuchosen]]></author>
+      <pubDate>Wed, 07 Oct 2020 22:26:43 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Adding Full-Text Index to other columns]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13178/adding-full-text-index-to-other-columns</link>
+      <description></description>
+      <author><![CDATA[s22_tech]]></author>
+      <pubDate>Tue, 06 Oct 2020 18:37:09 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[How to test order_success page without an order?]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13171/how-to-test-order-success-page-without-an-order</link>
+      <description></description>
+      <author><![CDATA[s22_tech]]></author>
+      <pubDate>Mon, 05 Oct 2020 20:24:45 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Back button won't send you back to custom page]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13176/back-button-wont-send-you-back-to-custom-page</link>
+      <description></description>
+      <author><![CDATA[s22_tech]]></author>
+      <pubDate>Mon, 05 Oct 2020 19:15:34 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Shipping in items]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/13166/shipping-in-items</link>
+      <description></description>
+      <author><![CDATA[insanebear]]></author>
+      <pubDate>Mon, 05 Oct 2020 18:07:48 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Templates and CSS]]></category>
+      <title><![CDATA[How to: make filter options collapsible?]]></title>
+      <link>https://www.litecart.net/en/forums/12/templates-and-css/13158/how-to-make-filter-options-collapsible</link>
+      <description></description>
+      <author><![CDATA[mysc]]></author>
+      <pubDate>Mon, 05 Oct 2020 16:56:38 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[If you have time please upgrade to 2.2.4]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/13044/if-you-have-time-please-upgrade-to-2-2-4</link>
+      <description></description>
+      <author><![CDATA[bobdrinktech]]></author>
+      <pubDate>Mon, 05 Oct 2020 14:15:39 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Errors in reviews module]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/13105/errors-in-reviews-module</link>
+      <description></description>
+      <author><![CDATA[easymask]]></author>
+      <pubDate>Mon, 05 Oct 2020 09:15:14 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Access discount sum from order_process]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/13067/access-discount-sum-from-order-process</link>
+      <description></description>
+      <author><![CDATA[insanebear]]></author>
+      <pubDate>Mon, 05 Oct 2020 07:03:45 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Customer Group Price Not Working in 2.2.4]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/13068/customer-group-price-not-working-in-2-2-4</link>
+      <description></description>
+      <author><![CDATA[jsl]]></author>
+      <pubDate>Sun, 04 Oct 2020 23:39:34 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Accessing LiteCart functions externally]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/13161/accessing-litecart-functions-externally</link>
+      <description></description>
+      <author><![CDATA[s22_tech]]></author>
+      <pubDate>Sat, 03 Oct 2020 20:51:31 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Add-ons]]></category>
+      <title><![CDATA[Add-on not working under 2.2.4]]></title>
+      <link>https://www.litecart.net/en/forums/7/add-ons/13155/add-on-not-working-under-2-2-4</link>
+      <description></description>
+      <author><![CDATA[s22_tech]]></author>
+      <pubDate>Fri, 02 Oct 2020 16:57:49 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[Upgrade error: 'upgrading database to 2.2.3']]></title>
+      <link>https://www.litecart.net/en/forums/3/installation-and-configuration/13130/upgrade-error-upgrading-database-to-2-2-3</link>
+      <description></description>
+      <author><![CDATA[alistairg]]></author>
+      <pubDate>Fri, 02 Oct 2020 15:50:46 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
+
+

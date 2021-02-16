@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+  <id>Order Copy PDF Attachment</id>
+  <version>1.0</version>
+  <vqmver required="true">2.4.0</vqmver>
+  <author>tim-international.net</author>
+
+  <file name="includes/entities/ent_order.inc.php">
+    <operation error="log">
+      <search position="replace" offset="1" index="2"><![CDATA[
+            ->add_body($message)
+      ]]></search>
+      <add><![CDATA[
+            ->add_body($message);
+
+    // Create PDF attachment
+      $client = new wrap_http();
+      $attachment = $client->call('GET', document::link('https://service.prerender.cloud/pdf/'.$aliases['%order_copy_url']), null, array('X-Prerender-Token' => PRERENDER_API_TOKEN, 'Prerender-Emulated-Media' => 'print'));
+      if ($client->last_response['status_code'] == 200) {
+        $email->add_attachment($attachment, 'Order-'.$this->data['id'].'.pdf', true);
+      }
+
+      $email->send();
+      ]]></add>
+    </operation>
+  </file>
+
+</modification>

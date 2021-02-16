@@ -1,0 +1,26 @@
+## [2020-10-29 12:21:01] Request #######################################
+
+POST /bot1326712475:AAEWQfqW1sCIGxzrEHfqEG_0A3lIeuMW09Q/sendMessage HTTP/1.1
+Host: api.telegram.org
+Content-Type: application/json; charset=uz
+User-Agent: LiteCart/2.2.4
+Content-Length: 426
+Connection: Close
+
+{"chat_id":"838418753","text":"Buyurtma raqami: #29\r\nMahsulot: 5 x \"Lalaku\" trusikchali-tagliklari (O`lchami: 2)\r\n7 x \"Lalaku\" trusikchali-tagliklari (O`lchami: 4)\r\n5 x \"Lalaku\" trusikchali-tagliklari (O`lchami: 3)\r\n\r\nSummasi: 1,343,000 so`m\r\nKim tomonidan: Alisher Mahmudov dan \r\nManzil: \r\n\r\nTEL: +998997776688\r\nURL: http://papay.uz/uz/order?order_id=29&public_key=kii270qc9850jrubvr9er34pt1kpdgkd"}
+
+## [2020-10-29 12:21:02] Response — 1159 bytes transferred in 0.765 s ##
+
+HTTP/1.1 200 OK
+Server: nginx/1.16.1
+Date: Thu, 29 Oct 2020 07:21:01 GMT
+Content-Type: application/json
+Content-Length: 771
+Connection: close
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+
+{"ok":true,"result":{"message_id":43,"from":{"id":1326712475,"is_bot":true,"first_name":"LaLaKu Dostavka (Yetkazib berish)","username":"lalaku_dostavka_bot"},"chat":{"id":838418753,"first_name":"QWeb","last_name":"Founder","username":"qweb_founder","type":"private"},"date":1603956061,"text":"Buyurtma raqami: #29\nMahsulot: 5 x \"Lalaku\" trusikchali-tagliklari (O`lchami: 2)\n7 x \"Lalaku\" trusikchali-tagliklari (O`lchami: 4)\n5 x \"Lalaku\" trusikchali-tagliklari (O`lchami: 3)\n\nSummasi: 1,343,000 so`m\nKim tomonidan: Alisher Mahmudov dan \nManzil: \n\nTEL: +998997776688\nURL: http://papay.uz/uz/order?order_id=29&public_key=kii270qc9850jrubvr9er34pt1kpdgkd","entities":[{"offset":258,"length":13,"type":"phone_number"},{"offset":277,"length":80,"type":"url"}]}}
+
